@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Grupo RV",
+    "id": "rede",
+    "subtitles": "Coordenador | Marketing | Growth Hacking",
+    "text": "Coordenação do time de Marketing e Growth Hacking. Integração de processos de Vendas/Marketing. Criação de Processo e Sistema de Geração e Distribuição de Leads para todas as Franquias do Brasil. Desenvolvimento de Campanhas Nacionais e Regionais de Marketing. Integrações com parcerias estratégicas de geração de leads.",
+    "years": "2019 - 2020",
+    "time": 3,
+    "type": "job"
+  },
+  {
+    "name": "Embaixada Digital",
+    "id": "embaixada",
+    "subtitles": "Consultor / Marketing / Growth Hacking",
+    "text": "Consultoria especializada de marketing / growth. Desenvolvimento de estratégias de comunicação e lançamentos.",
+    "years": "2018 - 2019",
+    "time": 1,
+    "type": "job"
+  },
+  {
+    "name": "Decora (CreativeDrive)",
+    "id": "decora",
+    "subtitles": "Community Manager",
+    "text": "Gestão e Estruturação de Comunidade através de Marketing, Growth e Relacionamento. Análise de Usabilidade na Plataforma e Estratégia de Melhorias.",
+    "years": "2016 - 2018",
+    "time": 2,
+    "type": "job"
+  },
+  {
+    "name": "Estúdio Executivo",
+    "id": "executivo",
+    "subtitles": "Gerente de Marketing",
+    "text": "Gestão da Empresa de marketing / design. Desenvolvimento de estratégias de comunicação e criações de campanhas. Prospecção e relacionamento com clientes.",
+    "years": "2015 - 2016",
+    "time": 1,
+    "type": "job"
+  },
+  {
+    "name": "Agência Mix",
+    "id": "mix",
+    "subtitles": "Front-end / Web Marketing",
+    "text": "Estágio Obrigatório UFSC. Análise e gestão das marcas da agência na web, criação de materiais digitais, sites e redes sociais.",
+    "years": "2015",
+    "time": 1,
+    "type": "job"
+  },
+  {
+    "name": "Tectan - Soluções em Tecnologia",
+    "id": "tectan",
+    "subtitles": "Estágio Front-end",
+    "text": "Desenvolvimento de marcas e estratégias de lançamento para produtos importados em ambiente nacional. Criação e Execução de campanhas de marketing online e offline. Desenvolvimento do branding da empresa.",
+    "years": "2011 - 2014",
+    "time": 3,
+    "type": "job"
+  },
+  {
+    "name": "Prefeitura Municipal de Florianópolis",
+    "id": "prefeitura",
+    "subtitles": "Estágio Front-end",
+    "text": "Desenvolvimento e manutenção de um site para a Biblioteca Municipal de Florianópolis.",
+    "years": "2009 - 2010",
+    "time": 1,
+    "type": "job"
+  },
+
+  {
+    "name": "Curso",
+    "id": "esse",
+    "subtitles": "Curso Legal",
+    "text": "Um baita",
+    "years": 2019,
+    "time": 1,
+    "type": "curso"
+  }
+]
