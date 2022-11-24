@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import Contato from "./contato";
 import Depoimentos from "./depoimentos";
 import Experiencias from "./experiencias";
@@ -18,52 +18,52 @@ export default function App() {
               <nav>
                 <ul>
                   <li className={style.li}>
-                    <Link to="/">
+                    <NavLink to="/" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaUserAlt className={style.menu__icon} />
                       <div className={style.title}>
                         Quem Sou
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className={style.li}>
-                    <Link to="/experiencias">
+                    <NavLink to="/experiencias" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaSuitcase className={style.menu__icon} />
                       <div className={style.title}>
                         Experiências
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className={style.li}>
-                    <Link to="/skills">
+                    <NavLink to="/skills" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaStar className={style.menu__icon} />
                       <div className={style.title}>
                         Skills
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className={style.li}>
-                    <Link to="/depoimentos">
+                    <NavLink to="/depoimentos" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaComments className={style.menu__icon} />
                       <div className={style.title}>
                         Depoimentos
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className={style.li}>
-                    <Link to="/portfolio">
+                    <NavLink to="/portfolio" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaLaptopCode className={style.menu__icon} />
                       <div className={style.title}>
                         Portfólio
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className={style.li}>
-                    <Link to="/contato">
+                    <NavLink to="/contato" className={({ isActive }) => (isActive ? style.active : "")}>
                       <FaPhoneAlt className={style.menu__icon} />
                       <div className={style.title}>
                         Contato
                       </div>
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </nav>

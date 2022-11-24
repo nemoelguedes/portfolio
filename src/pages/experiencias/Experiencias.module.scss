@@ -1,33 +1,41 @@
 @import "../../styles/Styles.module.scss";
 
+.container{
+  width: 100%;
+}
 
 .timeline__icons {
   width: 30px;
   height: 30px;
-  color: $color3;
-  transition: 500ms;
+  transition: 100ms;
 }
 
 .timeline__icons--curso {
   width: 30px;
   height: 30px;
-  color: $color2;
-  transition: 500ms;
+  transition: 100ms;
 }
 
 .timeline__experience:hover {
   transform: scale(1.1);
-  transition: 500ms;
-  color: $color3;
-  filter: drop-shadow(0 0 5px $color3);
+  transition:100ms;
+  color: $color1;
 }
 
 .timeline__experience--curso:hover {
   transform: scale(1.1);
-  transition: 500ms;
-  color: $color3;
-  filter: drop-shadow(0 0 5px $color2);
+  transition: 100ms;
+  color: $color1;
 }
+
+.active{
+  color: $color2 !important;
+}
+
+.activeHr{
+  background-color: $color2 !important;
+}
+
 
 .inTime{
   width: 100%;
@@ -62,21 +70,22 @@
 .hr{
   width: 100%;
   min-height: 3px;
-  background-color: $color3;
+  background-color: $color1;
   border: 0px;
 }
 
 .hr__curso{
   width: 100%;
   min-height: 3px;
-  background-color: $color2;
+  background-color: $color1;
   border: 0px;
 }
 
 .info{
-  width: 80%;
+  width: 60%;
   margin-top: 100px;
   margin-right: 20%;
+  margin-left: 20%;
   min-height: 200px;
   
 }
@@ -104,6 +113,7 @@
   font-size: 18px;
   color: $color1;
   font-family: 'MontSerrat', sans-serif;
+  text-align: left;
 }
 
 .years{

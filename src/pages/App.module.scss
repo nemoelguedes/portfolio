@@ -51,8 +51,8 @@ li {
 li:hover {
   transform: scale(1.1);
   transition: 200ms;
-  color: $color3;
-  filter: drop-shadow(0 0 5px $color3);
+  color: $color7;
+  filter: drop-shadow(0 0 5px $color7);
 }
 
 li:hover .title {
@@ -66,7 +66,11 @@ li a {
 }
 
 li a:hover {
-  color: $color4;
+  color: $color7;
+}
+
+.active{
+  color: $color7;
 }
 
 .title {

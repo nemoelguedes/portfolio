@@ -7,13 +7,14 @@ $color3 : #62B0D3;
 $color4 : #A8D1E6;
 $color5 : #6D868E;
 $color6 : #E03859;
+$color7 : #24FF8F;
 
 
 
 
 body{
   overflow-x:hidden;
-  background: linear-gradient(256.56deg, $color1 40.19%, #04162b 91.94%);
+  background: linear-gradient(256.56deg, $color1 60.19%, #04162b 91.94%);
 }
 
 html {
@@ -25,24 +26,37 @@ html {
 .page__section{
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
-  background-color: #f1f1f1;
+  text-align: center;
+  flex-direction: column;
+  background-color: #fff;
 }
 
 .page__section2{
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
   text-align: center;
+  flex-direction: column;
 }
 
 
-.page__container{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+.page__containerTitle{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 20vh;
+}
+
+.page__containerContent{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -51,7 +65,8 @@ html {
   color: $color1;
   font-family: 'Blinker', sans-serif;
   font-weight: 800;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  margin-top: -70px;
 }
 
 .page__title2{
@@ -75,9 +90,22 @@ html {
   font-weight: 800;
 }
 
+.page__title--shadow1{
+  font-size: 100px;
+  color: rgba($color: $color5, $alpha: 0.03);
+  font-family: 'Blinker', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
 .digit{
   animation: Digit 1s infinite;
   color: #fff;
+}
+
+.digit1{
+  animation: Digit 1s infinite;
+  color: $color2;
 }
 
 @keyframes Digit {
@@ -103,7 +131,7 @@ html {
   animation: backgroundhr 10s ease infinite;
   height: 2px;
   width: 100%;
-  background: linear-gradient(-45deg,$color2 48%, #fff 50%, $color2 52%);
+  background: linear-gradient(-45deg,$color2 48%, #fff 50%, $color7 52%);
   background-size: 200% 200%;
   border: 0;
  
@@ -114,13 +142,13 @@ html {
 
 @keyframes backgroundhr {
   0% {
-    background-position: 0% 50%
-}
-50% {
     background-position: 100% 50%
 }
-100% {
+50% {
     background-position: 0% 50%
+}
+100% {
+    background-position: 100% 50%
 }
 
 }

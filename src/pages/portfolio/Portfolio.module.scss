@@ -1,3 +1,153 @@
-.portfolio{
+@import "../../styles/Styles.module.scss";
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.dataA {
+  width: 48%;
+  float: left;
+  text-align: left;
+  margin-right: 4%;
+}
+
+.dataB {
+  width: 48%;
+  float: left;
+  text-align: left;
+}
+
+.single__portfolio {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+}
+
+
+.arrow__right {
+  width: 5%;
+  text-align: right;
+}
+
+.arrow__left {
+  width: 5%;
+  text-align: left;
+}
+
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.arrow--active {
+  color: $color3;
+  transition: 1s;
+}
+
+.arrow--active:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter: drop-shadow(0 0 5px $color3);
+}
+
+.arrow--inactive {
+  color: rgba($color: #fff, $alpha: 0.05);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  width: 100%;
+  color: $color7;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 100%;
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin-bottom: 40px;
+  line-height: 1.3em;
+}
+
+.icons {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 50px;
+
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: $color2;
+  transition: 1s;
+  margin-right: 10px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter: drop-shadow(0 0 5px $color3);
+}
+
+.actions{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.github{
+  height: 20px;
+  width: 20px;
+  color: $color3;
+  margin-right: 15px;
+}
+
+.link{
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+}
+
+
+.gitButton {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: $color2 1px solid;
+  color: $color2;
+  background-color: transparent;
+  transition: 1s;
+}
+
+.gitButton:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  filter: drop-shadow(0 0 5px $color3);
+}
+
+.image{
   width: 100%;
 }

@@ -10,26 +10,21 @@ export default function QuemSou() {
           Olá,
           <br />
           sou
-          <span className={style.name}> Nemoel.</span>
+          <span className={style.name}> Nemoel</span>,
+          <br />
+          dev front-end<span className={styleGeneral.digit1}>_</span>
         </div>
         <div className={style.subtitle}>
           <span className={style.name}>
-            Product-Led Growth<span className={styleGeneral.digit}>_</span>
-          </span>
-          <br />
-          Leadership
-          <span className={style.space}>|</span>
-          Front-end Developer
+          UX/UI Designer</span><span className={style.space}>|</span>Leadership
           <span className={style.space}>|</span>
           Growth Hacking
-          <span className={style.space}>|</span>
-          UI UX Design
 
         </div>
       </div>
 
       <div className={style.containerImage}>
-        IMAGEM
+        <img src="assets/nemoel.png" className={style.image} alt="nemoel" />
       </div>
 
     </section>
