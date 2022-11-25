@@ -6,6 +6,10 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
+
+  @media screen and (max-width: 700px) {
+    flex-wrap: wrap;
+  }
 }
 
 .single__depoimento{
@@ -15,6 +19,11 @@
   flex-direction: row;
   align-items: center;
   color: #fff;
+
+  @media screen and (max-width: 700px) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
 
 .single__depoimento:hover .img{
@@ -32,12 +41,11 @@
 .person{
   width: 20%;
   margin-right: 5%;
-}
 
-.data{
-  width: 20%;
-  text-align: left;
-  margin-right: 5%;
+  @media screen and (max-width: 700px) {
+    width: 45%;
+    margin-right: 5%;
+  }
 }
 
 .img{
@@ -46,6 +54,53 @@
   min-height: 150px;
   border: 3px $color7 solid;
   border-radius: 50%;
+
+  @media screen and (max-width: 700px) {
+    width: 90%;
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+.data{
+  width: 20%;
+  text-align: left;
+  margin-right: 5%;
+
+  @media screen and (max-width: 700px) {
+    width: 45%;
+    margin: 0;
+    padding-left: 5%;
+  }
+}
+
+.nome{
+  font-size: 24px;
+  font-weight: 600;
+
+  @media screen and (max-width: 700px) {
+    font-size: 20px;
+  }
+}
+
+.cargo{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $color7;
+  @media screen and (max-width: 700px) {
+    font-size: 14px;
+  }
+
+}
+
+.empresa{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  @media screen and (max-width: 700px) {
+    font-size: 14px;
+  }
+
 }
 
 .social{
@@ -53,6 +108,11 @@
   height: 25px;
   color: $color3;
   transition: 1s;
+
+  @media screen and (max-width: 700px) {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .social:hover {
@@ -68,36 +128,36 @@
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
+    font-size: 14px;
+  }
+
 }
 
 .text__margin{
   margin-left: 40px;
   margin-right: 40px;
+
+  @media screen and (max-width: 700px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
-.nome{
-  font-size: 24px;
-  font-weight: 600;
-}
 
-.cargo{
-  font-size: 16px;
-  text-transform: uppercase;
-  color: $color7;
-
-}
-
-.empresa{
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
 
 .quote__left{
   width: 25px;
   height: 25px;
   color: $color7;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 700px) {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .quote__right{
@@ -106,21 +166,37 @@
   color: $color7;
   margin-top: 10px;
   align-self: flex-end;
+
+  @media screen and (max-width: 700px) {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .arrow__right{
   width: 5%;
   text-align: right;
+  @media screen and (max-width: 700px) {
+    width: 30px;
+  }
 }
 
 .arrow__left{
   width: 5%;
   text-align: left;
+  @media screen and (max-width: 700px) {
+    width: 30px;
+  }
 }
 
 .arrow{
   width: 30px;
   height: 30px;
+
+  @media screen and (max-width: 700px) {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .arrow--active{
@@ -138,8 +214,17 @@
   color: rgba($color: #fff, $alpha: 0.05);
 }
 
-.comments {
-  position: absolute;
-  width: 40px;
-  height: 40px;
+.arrow__mobile{
+  visibility: hidden;
+  @media screen and (max-width: 700px) {
+    visibility: visible;
+  }
+
+}
+
+.arrow__desktop{
+  visibility: visible;
+  @media screen and (max-width: 700px) {
+    visibility: hidden;
+  }
 }

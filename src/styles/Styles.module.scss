@@ -15,6 +15,10 @@ $color7 : #24FF8F;
 body{
   overflow-x:hidden;
   background: linear-gradient(256.56deg, $color1 60.19%, #04162b 91.94%);
+
+  @media screen and (max-width:700px) {
+    background: $color1;
+  }
 }
 
 html {
@@ -31,6 +35,10 @@ html {
   text-align: center;
   flex-direction: column;
   background-color: #fff;
+
+  @media screen and (max-width: 700px) {
+    min-height: calc(100vh - 80px);
+  }
 }
 
 .page__section2{
@@ -40,6 +48,10 @@ html {
   min-height: 100vh;
   text-align: center;
   flex-direction: column;
+
+  @media screen and (max-width: 700px) {
+    min-height: calc(100vh - 80px);
+  }
 }
 
 
@@ -48,6 +60,10 @@ html {
   margin-left: 5%;
   margin-right: 5%;
   min-height: 20vh;
+
+  @media screen and (max-width: 700px) {
+    min-height: 10vh;
+  }
 }
 
 .page__containerContent{
@@ -60,6 +76,32 @@ html {
 }
 
 
+.page__title--shadow{
+  font-size: 100px;
+  color: rgba($color: #fff, $alpha: 0.03);
+  font-family: 'Blinker', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  @media screen and (max-width: 700px) {
+    font-size: 70px;
+  }
+}
+
+.page__title--shadow1{
+  font-size: 100px;
+  color: rgba($color: $color5, $alpha: 0.03);
+  font-family: 'Blinker', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  @media screen and (max-width: 700px) {
+    font-size: 70px;
+  }
+}
+
+
+
 .page__title{
   font-size: 50px;
   color: $color1;
@@ -67,6 +109,12 @@ html {
   font-weight: 800;
   margin-bottom: 30px;
   margin-top: -70px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -55px;
+  }
 }
 
 .page__title2{
@@ -76,26 +124,16 @@ html {
   font-weight: 800;
   margin-bottom: 30px;
   margin-top: -70px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -55px;
+  }
 }
 
 .page__name{
   color: $color2;
-}
-
-.page__title--shadow{
-  font-size: 100px;
-  color: rgba($color: #fff, $alpha: 0.03);
-  font-family: 'Blinker', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-.page__title--shadow1{
-  font-size: 100px;
-  color: rgba($color: $color5, $alpha: 0.03);
-  font-family: 'Blinker', sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
 }
 
 .digit{
@@ -125,6 +163,11 @@ html {
   background-color: $color2;
   margin-bottom: 60px;
 
+  @media screen and (max-width: 700px) {
+    margin-bottom: 30px;
+  }
+
+  
 }
 
 .lights{

@@ -13,16 +13,16 @@ export default function Depoimentos() {
 
   const depoimentos = depoimentosList;
 
-  function clickArrowLeft(){
-    if(number > 0 ){
-      setNumber(number-1);
+  function clickArrowLeft() {
+    if (number > 0) {
+      setNumber(number - 1);
       console.log(number);
     }
   }
 
-  function clickArrowRight(){
-    if(depoimentosList.length > number+1 ){
-      setNumber(number+1);
+  function clickArrowRight() {
+    if (depoimentosList.length > number + 1) {
+      setNumber(number + 1);
       console.log(number);
     }
   }
@@ -46,23 +46,24 @@ export default function Depoimentos() {
       </div>
       <div className={styleGeneral.page__containerContent}>
 
-        
-
-
-
-
         <div className={style.depoimentos}>
 
-        <div className={classNames({
-          [style.arrow__left]: true,
-          [number > 0 ? style["arrow--active"] : style["arrow--inactive"] ] : true,
-        })}><FaArrowAltCircleLeft className={style.arrow} onClick={clickArrowLeft} /></div>
+          <div className={classNames({
+            [style.arrow__left]: true,
+            [number > 0 ? style["arrow--active"] : style["arrow--inactive"]]: true,
+          })}><FaArrowAltCircleLeft className={style.arrow} onClick={clickArrowLeft} /></div>
 
-          {[depoimentos[number]].map((r: any, index:any) => <div className={style.single__depoimento} key={index}>
+          <div className={classNames({
+            [style.arrow__right]: true,
+            [depoimentosList.length > number + 1 ? style["arrow--active"] : style["arrow--inactive"]]: true,
+            [style.arrow__mobile]: true,
+          })}><FaArrowAltCircleRight className={style.arrow} onClick={clickArrowRight} /></div>
+
+          {[depoimentos[number]].map((r: any, index: any) => <div className={style.single__depoimento} key={index}>
 
             <div className={style.person}>
               <img className={style.img} alt={r.nome} src={r.foto} />
-              
+
             </div>
 
             <div className={style.data}>
@@ -82,13 +83,14 @@ export default function Depoimentos() {
               <FaQuoteRight className={style.quote__right} />
             </div> </div>)}
 
-            <div className={classNames({
-          [style.arrow__right]: true,
-          [depoimentosList.length > number+1 ? style["arrow--active"] : style["arrow--inactive"] ] : true,
-        })}><FaArrowAltCircleRight  className={style.arrow} onClick={clickArrowRight}  /></div>
-          </div>
+          <div className={classNames({
+            [style.arrow__right]: true,
+            [depoimentosList.length > number + 1 ? style["arrow--active"] : style["arrow--inactive"]]: true,
+            [style.arrow__desktop]: true,
+          })}><FaArrowAltCircleRight className={style.arrow} onClick={clickArrowRight} /></div>
+        </div>
 
-        
+
 
 
 

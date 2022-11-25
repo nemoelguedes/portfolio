@@ -3,146 +3,178 @@
     "name": "Grupo RV",
     "id": "rede",
     "subtitles": "Coordenador | Growth Hacking | Marketing",
-    "text": "Coordenação do time de Marketing e Growth Hacking. Integração de processos de vendas/marketing. Criação de processo e sistema de geração e distribuição de leads para todas as dranquias do Brasil. Desenvolvimento de campanhas nacionais, regionais e integrações com parcerias estratégicas de growth.",
-    "years": "2019 - 2020",
+    "text": ["Coordenação do time de Marketing e Growth Hacking. Integração de processos de vendas/marketing.","Criação de processo e sistema de geração e distribuição de leads para todas as dranquias do Brasil.","Desenvolvimento de campanhas nacionais, regionais e integrações com parcerias estratégicas de growth."],
+    "yearStart": 2019,
+    "yearEnd": 2022,
     "time": 3,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/rv.png"
   },
   {
     "name": "Embaixada Digital",
     "id": "embaixada",
     "subtitles": "Consultor | Growth Hacking | Marketing",
-    "text": "Consultoria especializada de Growth Hacking. Desenvolvimento e execução de estratégias de comunicação e lançamentos.",
-    "years": "2018 - 2019",
+    "text": ["Consultoria especializada de Growth Hacking.","Desenvolvimento e execução de estratégias de comunicação e lançamentos."],
+    "yearStart": 2018,
+    "yearEnd": 2019,
     "time": 1,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/emb.png"
   },
   {
     "name": "Decora (CreativeDrive)",
     "id": "decora",
     "subtitles": "Community Manager",
-    "text": "Gestão e estruturação de comunidade de tecnologia, growth e relacionamento. Análise de usabilidade na plataforma e estratégias de melhorias.",
-    "years": "2016 - 2018",
+    "text": ["Gestão e estruturação de comunidade de tecnologia, growth e relacionamento.","Análise de usabilidade na plataforma e estratégias de melhorias."],
+    "yearStart": 2016,
+    "yearEnd": 2018,
     "time": 2,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/decora.png"
   },
   {
     "name": "Estúdio Executivo",
     "id": "executivo",
-    "subtitles": "Gerente de Marketing",
-    "text": "Empreendimento em Tech Marketing / Design. Desenvolvimento de estratégias de comunicação digital, prospecção e relacionamento com clientes.",
-    "years": "2015 - 2016",
+    "subtitles": "Agência Digital",
+    "text": ["Empreendimento em Tech Marketing / Design. Desenvolvimento de estratégias de comunicação digital, prospecção e relacionamento com clientes."],
+    "yearStart": 2015,
+    "yearEnd": 2016,
     "time": 1,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/executivo.png"
   },
   {
     "name": "Agência Mix",
     "id": "mix",
     "subtitles": "Front-end / Web Marketing",
-    "text": "Análise e gestão das marcas da agência na web, criação de materiais digitais, sites e redes sociais.",
-    "years": "2015",
+    "text": ["Análise e gestão das marcas da agência na web, criação de materiais digitais, sites e redes sociais."],
+    "yearStart": 2015,
+    "yearEnd": 2015,
     "time": 1,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/mix.png"
   },
   {
     "name": "Tectan - Soluções em Tecnologia",
     "id": "tectan",
-    "subtitles": "Estágio Front-end",
-    "text": "Desenvolvimento e execução de estratégias digitais de lançamento e posicionamento para produtos importados em ambiente nacional. Páginas digitais, social, campanhas, etc.",
-    "years": "2011 - 2014",
+    "subtitles": "Front-end",
+    "text": ["Desenvolvimento e execução de estratégias digitais de lançamento e posicionamento para produtos importados em ambiente nacional.", "Páginas digitais, social, campanhas, etc."],
+    "yearStart": 2011,
+    "yearEnd": 2014,
     "time": 3,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/tectan.png"
   },
   {
     "name": "Prefeitura Municipal de Florianópolis",
     "id": "prefeitura",
     "subtitles": "Estágio Front-end",
-    "text": "Desenvolvimento e manutenção de um site para a Biblioteca Municipal de Florianópolis.",
-    "years": "2009 - 2010",
+    "text": ["Desenvolvimento e manutenção de um site para a Biblioteca Municipal de Florianópolis."],
+    "yearStart": 2009,
+    "yearEnd": 2010,
     "time": 1,
-    "type": "job"
+    "type": "job",
+    "img": "assets/exp/pmf.png"
   },
 
   {
     "name": "Figma",
     "id": "figma",
     "subtitles": "",
-    "text": "Aprofundamento em Figma, uma plataforma colaborativa para construção de design de interfaces e protótipos.",
-    "years": 2022,
+    "text": ["Aprofundamento em Figma, com foco em construção do design de interfaces e protótipos."],
+    "yearStart": 2021,
+    "yearEnd": 2021,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "Liderança e Metodologias Ágeis",
     "id": "scrum",
     "subtitles": "",
-    "text": "Mentoria em liderança, aplicando metodologias ágeis em projetos, Scrum, Sprints, etc.",
-    "years": 2021,
+    "text": ["Mentoria em liderança, aplicando metodologias ágeis em projetos, Scrum, Sprints, etc."],
+    "yearStart": 2021,
+    "yearEnd": 2021,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "UX UI Design",
     "id": "uxui",
     "subtitles": "",
-    "text": "Aprofundamento em User Experience e User Interface, aplicando em projetos de design.",
-    "years": 2020,
+    "text": ["Aprofundamento em User Experience e User Interface, aplicando em projetos de design."],
+    "yearStart": 2020,
+    "yearEnd": 2020,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "Branding",
     "id": "branding",
     "subtitles": "",
-    "text": "Aprofundamento em metodologias de Branding, Naming e gestão de Marcas.",
-    "years": "2018",
+    "text": ["Aprofundamento em metodologias de Branding, Naming e gestão de Marcas."],
+    "yearStart": 2018,
+    "yearEnd": 2018,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "Growth Hacking",
     "id": "growthhacking",
     "subtitles": "",
-    "text": "Aprofundamento em técnicas de rápido crescimento digital e aplicação em projetos.",
-    "years": "2017",
+    "text": ["Técnicas de rápido crescimento digital e aplicação em projetos."],
+    "yearStart": 2017,
+    "yearEnd": 2017,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "Tech Marketing / SEO",
     "id": "techmarketing",
     "subtitles": "",
-    "text": "Aprofundamento em técnicas e ferramentas de SEO, Google Ads, Facebook Ads, entre outros.",
-    "years": 2016,
+    "text": ["Aprofundamento em técnicas e ferramentas de SEO, Google Ads, Facebook Ads, entre outros."],
+    "yearStart": 2016,
+    "yearEnd": 2016,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
-    "name": "UFSC",
+    "name": "Graduação em Design - UFSC",
     "id": "ufsc",
-    "subtitles": "Graduação em Design",
-    "text": "Formação acadêmica em Design, com foco nas áreas de WebDesign, Branding e Design. Estudos em ergonomia, tipografia, cores, comunicação e diversos projetos realizados.",
-    "years": "2011 - 2015",
+    "subtitles": "",
+    "text": ["Formação acadêmica em Design, com foco nas áreas de WebDesign, Branding e Design.", "Estudos em ergonomia, tipografia, cores, comunicação e diversos projetos realizados."],
+    "yearStart": 2011,
+    "yearEnd": 2015,
     "time": 5,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
   {
     "name": "Adobe Pack",
     "id": "adobe",
-    "subtitles": "Ferramentas da Adobe",
-    "text": "Aprofundamento no Pacote Adobe, Illustrator, Photoshop, Flash, Dreamweaver e Premiere.",
-    "years": "2010",
+    "subtitles": "",
+    "text": ["Pacote Adobe - Illustrator, Photoshop, Flash, Dreamweaver e Premiere."],
+    "yearStart": 2008,
+    "yearEnd": 2009,
     "time": 1,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   },
 
   {
     "name": "WebDesign",
     "id": "webdesign",
-    "subtitles": "Introdução ao WebDesign - Microlins",
-    "text": "Introdução as linguagens de programação como HTML, CSS e JavaScript. Construção dos primeiros sites.",
-    "years": "2006 - 2007",
+    "subtitles": "",
+    "text": ["Introdução as linguagens de programação como HTML, CSS e JavaScript. Construção dos primeiros sites."],
+    "yearStart": 2006,
+    "yearEnd": 2007,
     "time": 2,
-    "type": "curso"
+    "type": "curso",
+    "img": "assets/exp/.png"
   }
 ]

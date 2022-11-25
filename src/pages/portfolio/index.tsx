@@ -50,6 +50,12 @@ export default function Portfolio() {
             [number > 0 ? style["arrow--active"] : style["arrow--inactive"]]: true,
           })}><FaArrowAltCircleLeft className={style.arrow} onClick={clickArrowLeft} /></div>
 
+          <div className={classNames({
+            [style.arrow__right]: true,
+            [portfolioList.length > number + 1 ? style["arrow--active"] : style["arrow--inactive"]]: true,
+            [style.arrow__mobile]: true,
+          })}><FaArrowAltCircleRight className={style.arrow} onClick={clickArrowRight} /></div>
+
           {[portfolio[number]].map((r: any, index: any) => <div className={style.single__portfolio} key={index}>
 
             <div className={style.dataA}>
@@ -62,16 +68,16 @@ export default function Portfolio() {
               <div className={style.actions}>
                 <a href={r.link} target="_blank">
                   <button type="button" className={style.button}>
-                  <FaLink className={style.link} />
+                    <FaLink className={style.link} />
                     Visualizar Demonstração
                   </button>
                 </a>
                 <a href={r.github} target="_blank">
-                <button type="button" className={style.gitButton}>
-                  <FaGithub className={style.github} />
-                  Ver no Github
-                </button>
-                
+                  <button type="button" className={style.gitButton}>
+                    <FaGithub className={style.github} />
+                    Ver no Github
+                  </button>
+
                 </a>
               </div>
 
@@ -79,7 +85,7 @@ export default function Portfolio() {
             </div>
 
             <div className={style.dataB}>
-             <img src={r.img} alt={r.title} className={style.image} />
+              <img src={r.img} alt={r.title} className={style.image} />
 
             </div>
           </div>)}
@@ -87,6 +93,7 @@ export default function Portfolio() {
           <div className={classNames({
             [style.arrow__right]: true,
             [portfolioList.length > number + 1 ? style["arrow--active"] : style["arrow--inactive"]]: true,
+            [style.arrow__desktop]: true,
           })}><FaArrowAltCircleRight className={style.arrow} onClick={clickArrowRight} /></div>
         </div>
 
