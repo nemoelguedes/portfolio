@@ -1,5 +1,13 @@
 [
   {
+    "nome": "Paul Eipper",
+    "cargo": "CTO",
+    "empresa": "Rede Vistorias",
+    "linkedin": "https://www.linkedin.com/in/pauleipper/",
+    "foto": "assets/depoimentos/paul.jpg",
+    "depoimento": "Um profissional completo capacitado na execução e na gestão. Consegue enxergar além da demanda, antevendo e buscando soluções com muita eficácia e qualidade. Em todos projetos que trabalhamos em conjunto Nemoel foi pessoa chave para atingirmos uma entrega com sucesso."
+  },
+  {
     "nome": "Rafael Marrone",
     "cargo": "Gerente Comercial",
     "empresa": "Grupo RV",
