@@ -23,6 +23,71 @@ export default function Skills() {
 
         <div className={style.containerSkills}>
 
+          
+        <div className={style.title}>TECH MARKETING</div>
+          <div className={style.container}>
+
+
+            <div className={style.skill__div}>
+              <img src="assets/gg_ads.png" className={style.skill__img} alt="Figma" />
+              <div className={style.skill__title}>Google Ads</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/fb_ads.png" className={style.skill__img} alt="Illustrator" />
+              <div className={style.skill__title}>Facebook Ads</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/rd.png" className={style.skill__img} alt="Photoshop" />
+              <div className={style.skill__title}>RD Station</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/analytics.png" className={style.skill__img} alt="Branding" />
+              <div className={style.skill__title}>Google Analytics</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/data.png" className={style.skill__img} alt="SEO" />
+              <div className={style.skill__title}>Google DataStudio</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/branding.png" className={style.skill__img} alt="Branding" />
+              <div className={style.skill__title}>Branding</div>
+            </div>
+            
+          </div>
+
+
+
+          
+          <div className={style.title}>UI/UX DESIGN</div>
+          <div className={style.container}>
+
+
+            <div className={style.skill__div}>
+              <img src="assets/figma.png" className={style.skill__img} alt="Figma" />
+              <div className={style.skill__title}>Figma</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/ai.png" className={style.skill__img} alt="Illustrator" />
+              <div className={style.skill__title}>Illustrator</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/ps.png" className={style.skill__img} alt="Photoshop" />
+              <div className={style.skill__title}>Photoshop</div>
+            </div>
+
+            <div className={style.skill__div}>
+              <img src="assets/seo.png" className={style.skill__img} alt="SEO" />
+              <div className={style.skill__title}>SEO</div>
+            </div>
+          </div>
+
 
           <div className={style.title}>FRONT-END CODE</div>
           <div className={style.container}>
@@ -63,35 +128,6 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className={style.title}>UI/UX DESIGN</div>
-          <div className={style.container}>
-
-
-            <div className={style.skill__div}>
-              <img src="assets/figma.png" className={style.skill__img} alt="Figma" />
-              <div className={style.skill__title}>Figma</div>
-            </div>
-
-            <div className={style.skill__div}>
-              <img src="assets/ai.png" className={style.skill__img} alt="Illustrator" />
-              <div className={style.skill__title}>Illustrator</div>
-            </div>
-
-            <div className={style.skill__div}>
-              <img src="assets/ps.png" className={style.skill__img} alt="Photoshop" />
-              <div className={style.skill__title}>Photoshop</div>
-            </div>
-
-            <div className={style.skill__div}>
-              <img src="assets/branding.png" className={style.skill__img} alt="Branding" />
-              <div className={style.skill__title}>Branding</div>
-            </div>
-
-            <div className={style.skill__div}>
-              <img src="assets/seo.png" className={style.skill__img} alt="SEO" />
-              <div className={style.skill__title}>SEO</div>
-            </div>
-          </div>
 
         </div>
 
