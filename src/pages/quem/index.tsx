@@ -12,13 +12,13 @@ export default function QuemSou() {
           sou
           <span className={style.name}> Nemoel</span>,
           <br />
-          dev front-end<span className={styleGeneral.digit1}>_</span>
+          tech marketing<span className={styleGeneral.digit1}>_</span>
         </div>
         <div className={style.subtitle}>Leadership
           <span className={style.space}>|</span>
           <span className={style.name}>
-          UX/UI Designer</span><span className={style.space}>|</span>
-          Growth Hacking
+          Growth Hacking</span><span className={style.space}>|</span>
+          Branding
 
         </div>
       </div>

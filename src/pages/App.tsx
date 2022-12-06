@@ -86,14 +86,14 @@ export default function App() {
                         </div>
                       </NavLink>
                     </li>
-                    <li className={style.li}>
+                    {/* <li className={style.li}>
                       <NavLink to="/portfolio" className={({ isActive }) => (isActive ? style.active : "")}>
                         <FaLaptopCode className={style.menu__icon} />
                         <div className={style.title}>
                           Portfólio
                         </div>
                       </NavLink>
-                    </li>
+                    </li> */}
                     <li className={style.li}>
                       <NavLink to="/contato" className={({ isActive }) => (isActive ? style.active : "")}>
                         <FaPhoneAlt className={style.menu__icon} />
@@ -115,7 +115,7 @@ export default function App() {
                 <Route path="/experiencias" element={<><ScrollToTop /><Experiencias /></>} />
                 <Route path="/skills" element={<><ScrollToTop /><Skills /></>} />
                 <Route path="/depoimentos" element={<><ScrollToTop /><Depoimentos /></>} />
-                <Route path="/portfolio" element={<><ScrollToTop /><Portfolio /></>} />
+                {/* <Route path="/portfolio" element={<><ScrollToTop /><Portfolio /></>} /> */}
                 <Route path="/contato" element={<><ScrollToTop /><Contato /></>} />
               </Routes>
 

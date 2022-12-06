@@ -2,7 +2,7 @@
   {
     "name": "Grupo RV",
     "id": "rede",
-    "subtitles": "Coordenador | Growth Hacking | Marketing",
+    "subtitles": "Coordenador | Marketing | Growth Hacking",
     "text": ["Coordenação do time de Marketing e Growth Hacking. Integração de processos de vendas/marketing.","Criação de processo e sistema de geração e distribuição de leads para todas as franquias do Brasil.","Desenvolvimento de campanhas nacionais, regionais e integrações com parcerias estratégicas de growth."],
     "yearStart": 2019,
     "yearEnd": 2022,
@@ -13,7 +13,7 @@
   {
     "name": "Embaixada Digital",
     "id": "embaixada",
-    "subtitles": "Consultor | Growth Hacking | Marketing",
+    "subtitles": "Consultor | Marketing | Growth Hacking",
     "text": ["Consultoria especializada de Growth Hacking.","Desenvolvimento e execução de estratégias de comunicação e lançamentos."],
     "yearStart": 2018,
     "yearEnd": 2019,
@@ -35,7 +35,7 @@
   {
     "name": "Estúdio Executivo",
     "id": "executivo",
-    "subtitles": "Agência Digital",
+    "subtitles": "Empreendedor | Agência Digital",
     "text": ["Empreendimento em Tech Marketing / Design. Desenvolvimento de estratégias de comunicação digital, prospecção e relacionamento com clientes."],
     "yearStart": 2015,
     "yearEnd": 2016,
@@ -46,7 +46,7 @@
   {
     "name": "Agência Mix",
     "id": "mix",
-    "subtitles": "Front-end / Web Marketing",
+    "subtitles": "Tech Marketing | Web Marketing",
     "text": ["Análise e gestão das marcas da agência na web, criação de materiais digitais, sites e redes sociais."],
     "yearStart": 2015,
     "yearEnd": 2015,
@@ -57,7 +57,7 @@
   {
     "name": "Tectan - Soluções em Tecnologia",
     "id": "tectan",
-    "subtitles": "Front-end",
+    "subtitles": "Consultor | Tech Marketing",
     "text": ["Desenvolvimento e execução de estratégias digitais de lançamento e posicionamento para produtos importados em ambiente nacional.", "Páginas digitais, social, campanhas, etc."],
     "yearStart": 2011,
     "yearEnd": 2014,
