@@ -1,12 +1,6 @@
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
-import Contato from "./contato";
-import Depoimentos from "./depoimentos";
-import Experiencias from "./experiencias";
-import Portfolio from "./portfolio";
-import QuemSou from "./quem";
-import Skills from "./skills";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import style from "./App.module.scss";
-import { FaUserAlt, FaSuitcase, FaStar, FaLaptopCode, FaPhoneAlt, FaComments } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 import { useState } from "react";
 import classNames from "classnames";
 import ScrollToTop from "components/scrolltotop";
@@ -58,47 +52,7 @@ export default function App() {
                       <NavLink to="/" className={({ isActive }) => (isActive ? style.active : "")}>
                         <FaUserAlt className={style.menu__icon} />
                         <div className={style.title}>
-                          Quem Sou
-                        </div>
-                      </NavLink>
-                    </li>
-                    <li className={style.li}>
-                      <NavLink to="/experiencias" className={({ isActive }) => (isActive ? style.active : "")}>
-                        <FaSuitcase className={style.menu__icon} />
-                        <div className={style.title}>
-                          Experiências
-                        </div>
-                      </NavLink>
-                    </li>
-                    <li className={style.li}>
-                      <NavLink to="/skills" className={({ isActive }) => (isActive ? style.active : "")}>
-                        <FaStar className={style.menu__icon} />
-                        <div className={style.title}>
-                          Skills
-                        </div>
-                      </NavLink>
-                    </li>
-                    <li className={style.li}>
-                      <NavLink to="/depoimentos" className={({ isActive }) => (isActive ? style.active : "")}>
-                        <FaComments className={style.menu__icon} />
-                        <div className={style.title}>
-                          Depoimentos
-                        </div>
-                      </NavLink>
-                    </li>
-                    {/* <li className={style.li}>
-                      <NavLink to="/portfolio" className={({ isActive }) => (isActive ? style.active : "")}>
-                        <FaLaptopCode className={style.menu__icon} />
-                        <div className={style.title}>
-                          Portfólio
-                        </div>
-                      </NavLink>
-                    </li> */}
-                    <li className={style.li}>
-                      <NavLink to="/contato" className={({ isActive }) => (isActive ? style.active : "")}>
-                        <FaPhoneAlt className={style.menu__icon} />
-                        <div className={style.title}>
-                          Contato
+                          Menu Item
                         </div>
                       </NavLink>
                     </li>
@@ -111,12 +65,7 @@ export default function App() {
             <div className={style.pages}>
 
               <Routes>
-                <Route path="/" element={<><ScrollToTop /><QuemSou /></>} />
-                <Route path="/experiencias" element={<><ScrollToTop /><Experiencias /></>} />
-                <Route path="/skills" element={<><ScrollToTop /><Skills /></>} />
-                <Route path="/depoimentos" element={<><ScrollToTop /><Depoimentos /></>} />
-                {/* <Route path="/portfolio" element={<><ScrollToTop /><Portfolio /></>} /> */}
-                <Route path="/contato" element={<><ScrollToTop /><Contato /></>} />
+                <Route path="/" element={<><ScrollToTop /></>} />
               </Routes>
 
             </div>
